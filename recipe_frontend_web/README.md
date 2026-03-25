@@ -2,6 +2,14 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+### Environment
+
+This frontend reads the backend base URL from:
+
+- `NEXT_PUBLIC_API_BASE` (e.g. `https://<host>:3001`)
+
+It is already set in this container's `.env`.
+
 First, run the development server:
 
 ```bash

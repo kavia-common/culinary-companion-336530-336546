@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Minimal Next.js App",
-  description: "Ultra-minimal Next.js application",
+  title: "Culinary Companion",
+  description:
+    "Browse, search, and manage recipes. Save favorites, generate shopping lists, and more.",
 };
 
 export default function RootLayout({
